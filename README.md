@@ -12,5 +12,5 @@ load("//cargo:crates.bzl", "raze_fetch_remote_crates")
 raze_fetch_remote_crates()
 ```
 4. Use `cargo raze` to generate bazel BUILD file for cargo crates.
-** More about cargo raze can be found [here](https://github.com/google/cargo-raze)
+** More about cargo raze can be found [here](https://github.com/google/cargo-raze) **
 5. Now you can build it using bazel `bazel build //...`
