@@ -1,5 +1,5 @@
-use re_grpc::remote_execution::ActionResult as ActionResult;
-use re_grpc::remote_execution::Digest as Digest;
+use re_grpc::remote_execution::ActionResult;
+use re_grpc::remote_execution::Digest;
 use std::collections::HashMap;
 use std::vec::Vec;
 
